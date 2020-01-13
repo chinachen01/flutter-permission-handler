@@ -15,6 +15,7 @@
 #import "StoragePermissionStrategy.h"
 #import "UnknownPermissionStrategy.h"
 #import "NotificationPermissionStrategy.h"
+#import "SpeechPermissionStrategy.h"
 #import "PermissionHandlerEnums.h"
 #import "Codec.h"
 
