@@ -83,6 +83,8 @@
             return [NotificationPermissionStrategy new];
         case PermissionGroupStorage:
             return [StoragePermissionStrategy new];
+        case PermissionGroupMicrophone:
+            return [AudioVideoPermissionStrategy new];
         case PermissionGroupSpeech:
             return [SpeechPermissionStrategy new];
         default:
